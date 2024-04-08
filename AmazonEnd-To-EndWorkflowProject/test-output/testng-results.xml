@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-02T12:51:28 IST" name="Test Suite" finished-at="2024-04-02T12:52:24 IST" duration-ms="56398">
+    <groups>
+    </groups>
+    <test started-at="2024-04-02T12:51:28 IST" name="Amazon Workflow Test" finished-at="2024-04-02T12:52:24 IST" duration-ms="56398">
+      <class name="amazoneTest.amazonShoppingWorkflow">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:amazoneTest.amazonShoppingWorkflow@59a008ba]" started-at="2024-04-02T12:51:28 IST" name="launchApplication" finished-at="2024-04-02T12:51:42 IST" duration-ms="13849" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="amazoneWorkflow()[pri:0, instance:amazoneTest.amazonShoppingWorkflow@59a008ba]" started-at="2024-04-02T12:51:42 IST" name="amazoneWorkflow" finished-at="2024-04-02T12:52:20 IST" duration-ms="37975" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amazoneWorkflow -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:amazoneTest.amazonShoppingWorkflow@59a008ba]" started-at="2024-04-02T12:52:20 IST" name="closeBrowser" finished-at="2024-04-02T12:52:24 IST" duration-ms="4466" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- amazoneTest.amazonShoppingWorkflow -->
+    </test> <!-- Amazon Workflow Test -->
+  </suite> <!-- Test Suite -->
+</testng-results>
